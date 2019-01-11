@@ -62,7 +62,7 @@ HCP = na.omit(HCP)
 anyNA(HCP)
 ####################################################################################################
 ####################################################################################################
-#Preprocess - YeoJohnson =  Remove skewness leading to normality 
+#Preprocess - scale and demean = standard deviation = 1 and mean = 0
 y=HCP$Sex
 preProcess_range_model <- preProcess(HCP[,2:length(HCP)], method=c('center'))
 HCP = predict(preProcess_range_model, HCP[,2:length(HCP)])
