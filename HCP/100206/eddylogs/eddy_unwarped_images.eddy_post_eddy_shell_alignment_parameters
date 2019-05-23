@@ -1,0 +1,46 @@
+These between shell parameters were calculated using MI between shell means
+Movement parameters relative b0-shell from direct registration to mean b0
+Shell 998 to b0-shell
+ x-tr (mm) y-tr (mm) z-tr (mm) x-rot (deg) y-rot (deg) z-rot (deg)
+    -0.881     0.221   -0.0395       0.279       0.216      0.0305
+Shell 2e+03 to b0-shell
+ x-tr (mm) y-tr (mm) z-tr (mm) x-rot (deg) y-rot (deg) z-rot (deg)
+    -0.763    -0.064   0.00848      0.0667       0.324      0.0926
+Shell 3e+03 to b0-shell
+ x-tr (mm) y-tr (mm) z-tr (mm) x-rot (deg) y-rot (deg) z-rot (deg)
+    -0.958   -0.0996      0.28       0.227       0.391       0.198
+
+Relative movement parameters between the shells
+Shell 2e+03 to shell 998
+ x-tr (mm) y-tr (mm) z-tr (mm) x-rot (deg) y-rot (deg) z-rot (deg)
+     0.178   -0.0201     0.071    -0.00138       0.136        0.01
+Shell 3e+03 to shell 998
+ x-tr (mm) y-tr (mm) z-tr (mm) x-rot (deg) y-rot (deg) z-rot (deg)
+    -0.175     0.016    0.0636    0.000979      0.0345      -0.012
+
+Deduced movement parameters relative b-shell
+Shell 998 to b0-shell
+ x-tr (mm) y-tr (mm) z-tr (mm) x-rot (deg) y-rot (deg) z-rot (deg)
+    -0.881     0.221   -0.0395       0.279       0.216      0.0305
+Shell 2e+03 to b0-shell
+ x-tr (mm) y-tr (mm) z-tr (mm) x-rot (deg) y-rot (deg) z-rot (deg)
+    -0.763    -0.064   0.00848      0.0667       0.324      0.0926
+Shell 3e+03 to b0-shell
+ x-tr (mm) y-tr (mm) z-tr (mm) x-rot (deg) y-rot (deg) z-rot (deg)
+    -0.958   -0.0996      0.28       0.227       0.391       0.198
+
+
+These between shell parameters were calculated using interspersed b0-volumes
+Movement parameters relative b0-shell
+Shell 998 to b0-shell
+ x-tr (mm) y-tr (mm) z-tr (mm) x-rot (deg) y-rot (deg) z-rot (deg)
+    -0.957  -0.00152    0.0127      0.0457       0.292      0.0295
+Shell 2e+03 to b0-shell
+ x-tr (mm) y-tr (mm) z-tr (mm) x-rot (deg) y-rot (deg) z-rot (deg)
+     -1.08   -0.0241    -0.235        0.15       0.343       0.113
+Shell 3e+03 to b0-shell
+ x-tr (mm) y-tr (mm) z-tr (mm) x-rot (deg) y-rot (deg) z-rot (deg)
+    -0.997   -0.0167   -0.0186     -0.0247       0.385       0.119
+
+
+The movement parameters presented above have been calculated but not used
