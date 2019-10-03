@@ -67,8 +67,8 @@ y=HCP$Sex
 preProcess_range_model <- preProcess(HCP[,2:length(HCP)], method=c('center'))
 HCP = predict(preProcess_range_model, HCP[,2:length(HCP)])
 
-preProcess_range_model <- preProcess(HCP[,2:length(HCP)], method=c('scale'))
-HCP = predict(preProcess_range_model, HCP[,2:length(HCP)])
+preProcess_range_model <- preProcess(HCP[,1:length(HCP)], method=c('scale'))
+HCP = predict(preProcess_range_model, HCP[,1:length(HCP)])
 HCP$Sex=y
 
 #Move Sex to the front
